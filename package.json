@@ -11,6 +11,9 @@
     "theme",
     "template"
   ],
+  "scripts": {
+    "start": "gulp dev"
+  },
   "dependencies": {
     "@fortawesome/fontawesome-free": "5.3.1",
     "bootstrap": "4.1.3",
