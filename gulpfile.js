@@ -106,13 +106,14 @@ gulp.task('js', ['js:minify']);
 gulp.task('default', ['css', 'js', 'vendor']);
 
 // Configure the browserSync task
-gulp.task('browserSync', function() {
+gulp.task('browserSync', [], function() {
+  // .init starts the server
   browserSync.init({
-    server: {
-      baseDir: "./"
-    }
+    server: "./",
+    port: process.env.PORT || 3000
   });
 });
+
 
 // Serve task
 gulp.task('serve', ['css', 'js', 'browserSync'], function() {
