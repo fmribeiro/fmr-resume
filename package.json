@@ -12,7 +12,7 @@
     "template"
   ],
   "scripts": {
-    "start": "gulp dev",
+    "start": "gulp serve",
     "postintall": "gulp default"
   },
   "dependencies": {
