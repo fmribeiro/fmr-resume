@@ -1,5 +1,5 @@
 /*!
- * Start Bootstrap - Resume v5.0.2 ()
+ * Start Bootstrap - Resume v5.0.4 ()
  * Copyright 2013-2021 
  * Licensed under  (https://github.com/BlackrockDigital/startbootstrap-resume/blob/master/LICENSE)
  */
