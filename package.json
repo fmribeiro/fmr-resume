@@ -16,6 +16,9 @@
     "not IE 11",
     "maintained node versions"
   ],
+  "engines": {
+    "node": "14.8.0"
+  },
   "scripts": {
     "start": "gulp serve",
     "postintall": "gulp default"
